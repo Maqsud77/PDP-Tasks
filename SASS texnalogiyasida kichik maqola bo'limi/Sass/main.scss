@@ -1,0 +1,102 @@
+$font-size:12px;
+$one-color:#b2b2b2;
+$border-radius:4px;
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f5;
+  font-family: sans-serif;
+}
+.container{
+  width: 800px;
+  margin: 0 auto;
+  .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    .title{
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+    .list{
+      list-style: none;
+      display: flex;
+      .active{
+        background-color: #ed2939;
+        outline: none;
+        border: none;
+        font-size: $font-size;
+        border-radius: $border-radius;
+        margin-left: 10px;
+        padding: 5px 8px;
+        text-decoration: none;
+        color: white;
+      }
+      .list-item {
+        font-size: $font-size;
+        border: 1px solid $one-color;
+        border-radius: $border-radius;
+        margin-left: 10px;
+        padding: 5px 8px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  .block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .box{
+      width: 32%;
+      background-color: white;
+      box-shadow: 0 3px 0  rgba(0,0,0,0.05);
+      border-radius: 8px;
+      margin-bottom: 18px;
+      img{
+        width: 100%;
+        border-radius: $border-radius;
+      }
+      .nestedBox{
+        padding: 0.8rem;
+        .box-title{
+          font-size: $font-size;
+          color: $one-color;
+          border-left: 2px solid red;
+          padding-left: 5px;
+        }
+        p{
+          font-family: sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          color: #717171;
+
+        }
+        .dateComment{
+          display: flex;
+          color: $one-color;
+          font-size: $font-size;
+          img{
+            width: 15px;
+            margin-left: 15px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  .download{
+    text-align: center;
+    button{
+      color: white;
+      background-color: #ed2939;
+      border: none;
+      outline: none;
+      border-radius: $border-radius;
+      padding: 0.25rem 3rem;
+      margin-bottom: 25px;
+      cursor: pointer;
+    }
+  }
+}

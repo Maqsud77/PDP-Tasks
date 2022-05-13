@@ -1,0 +1,150 @@
+.box {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.box span {
+    font-size: 12px;
+    color: #cfd3dc;
+}
+
+.box h5 {
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.box img {
+    width: 60px;
+    margin-right: 25px;
+}
+
+.box-1 h5 span {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+.block {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-header h6 {
+    font-size: 12px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.block-header div {
+    display: flex;
+
+    align-items: center;
+}
+
+.block-header div span:nth-child(1) {
+
+    background-color: blue;
+    color: blue;
+    padding: 4px;
+    border-radius: 50%;
+    margin: 18px 10px 2rem 10px;
+}
+
+.block-header div span:nth-child(3) {
+    background-color: #ffb800;
+    padding: 4px;
+    border-radius: 50%;
+    margin: 18px 10px 2rem 10px;
+}
+
+.block img {
+    width: 100%;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.box-header h6 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.box-3 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.box-author img {
+    width: 45px;
+    margin-right: 10px;
+}
+
+.box-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.box-author div:nth-child(2) {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.box-4 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+}
+
+.box-4 img {
+    margin: 28px 60px;
+    width: 55%;
+
+}
+
+.box-4 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    background-color: #6f52ed;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 18px 10px 15px 10px;
+}
+
+.box-4 div:nth-child(4) .circle {
+    background-color: #ffb800;
+}
+
+.box-4 div:nth-child(5) .circle {
+    background-color: #ff4c61;
+}
+
+.box-4 div:nth-child(6) .circle {
+    background-color: #33d69f;
+}

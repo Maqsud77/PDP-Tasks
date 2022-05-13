@@ -1,0 +1,93 @@
+body{
+    background-color: #eef2f5 !important; ;
+}
+#carouselExampleIndicators {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.carousel-indicators{
+    bottom: -35px !important;
+}
+.carousel-indicators li {
+    border-radius: 50% !important;
+
+    height: 20px !important;
+    position: relative;
+    bottom: -45px;
+    margin: 0 15px !important;
+    background-color: transparent !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators li:after {
+    border-radius: 50%;
+    border: 2px solid #1dd1a1;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.carousel-indicators li.active {
+    background-color: #1dd1a1 !important;
+}
+.carousel-control-next span{
+    background-color: #918484 !important;
+    border-radius: 50%;
+    padding: 8px 10px;
+}
+.carousel-control-next{
+   right: -50px !important;
+    top:100px !important;
+}
+.carousel-control-prev{
+    left: -50px !important;
+    top:100px !important;
+}
+.carousel-control-prev span{
+    background-color: #918484 !important;
+    border-radius: 50%;
+    padding: 8px 10px;
+    right: 0 !important;
+}
+.carousel-control-prev span img{
+    margin-right: 5px;
+}
+.carousel-control-next span img{
+    margin-left: 5px;
+}
+.wrapper{
+    width: 700px;
+    position: relative;
+    margin-top: 100px;
+}
+.wrapper .person{
+    position: absolute;
+    border: 6px solid #eef2f5;
+    border-radius: 50%;
+    top:-65px;
+    right: 260px;
+}
+.background{
+    background-color: white;
+    width: 65%;
+    height: 40%;
+    position: absolute;
+    left: 17.5%;
+    top:235px;
+    margin: 0 auto;
+}
+.img1{
+    position: absolute;
+    left: 30px;
+    top:-20px;
+}
+.img2{
+    position: absolute;
+    right: 30px;
+    bottom:-20px;
+}

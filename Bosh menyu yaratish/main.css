@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 25px auto;
+    padding: 1rem 1.5rem;
+    width: 900px;
+    background-color: #edf5f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    cursor: pointer;
+}
+.list{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    color: #093845;
+    font-weight: bold;
+    font-family: sans-serif;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8-lesson 1-task</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+   <div class="row justify-content-center">
+       <div class="col-6 ">
+           <div class="card-body">
+               <h5 class="mb-2">Yangi buyurtma qo`shish</h5>
+               <div class="row">
+                   <div class="col-12 ">
+                     <div class="header rounded-pill text-black-50 ">
+                         <ul class="list-unstyled d-flex justify-content-around align-items-center m-0 py-2  ">
+                             <li class="list-item">Burger</li>
+                             <li class="list-item">Lavash</li>
+                             <li class="list-item">Garniyer</li>
+                             <li class="list-item">Salatlar</li>
+                             <li class="list-item">Ichimliklar</li>
+                             <li class="list-item">Sous</li>
+                         </ul>
+                     </div>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-6 rounded-3 ">
+                      <div class="box border rounded-3">
+                          <img class="w-100 rounded" src="Images/Screenshot_1.png" alt="">
+                          <div class="box-nested p-2 ">
+                              <h6 class="m-0">Kartofel fri (150g)</h6>
+                              <p class="m-0">Kartofel fri spes</p>
+                              <div class="footer d-flex justify-content-between align-items-center">
+                                  <h6 class="mt-2">5.000 UZS</h6>
+                                  <div class="btn-group-sm border rounded" role="group" aria-label="Basic mixed styles example">
+                                      <button type="button" class="btn btn-white ">-</button>
+                                      <button type="button" class="btn btn-white ">2</button>
+                                      <button type="button" class="btn btn-white">+</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="col-6 rounded-3 mb-2">
+                      <div class="box border rounded-3">
+                          <img class="w-100 rounded" src="Images/Screenshot_2.png" alt="">
+                          <div class="box-nested p-2 ">
+                              <h6 class="m-0">Kartofel fri (150g)</h6>
+                              <p class="m-0">Kartofel fri spes</p>
+                              <div class="footer d-flex justify-content-between align-items-center">
+                                  <h6 class="mt-2">5.000 UZS</h6>
+                                  <div class="btn-group-sm border rounded " role="group" aria-label="Basic mixed styles example">
+                                      <button type="button" class="btn btn-success">+ Success</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="col-6 rounded-3 ">
+                       <div class="box border rounded-3">
+                           <img class="w-100 rounded" src="Images/Screenshot_3.png" alt="">
+                           <div class="box-nested p-2 ">
+                               <h6 class="m-0">Kartofel fri (150g)</h6>
+                               <p class="m-o">Kartofel fri spes</p>
+                               <div class="footer d-flex justify-content-between align-items-center">
+                                   <h6 class="mt-2">5.000 UZS</h6>
+                                   <div class="btn-group-sm border rounded " role="group" aria-label="Basic mixed styles example">
+                                       <button type="button" class="btn btn-success">+ Success</button>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+       </div>
+   </div>
+       <div class="col-3 ">
+           <div class="card-body d-flex justify-content-between align-items-center">
+               <h6>Buyurtma ro`yxati</h6>
+               <img class="trash" src="Images/trash.svg" alt="icon-trash">
+           </div>
+           <div class="card-body border rounded mb-1">
+               <p class="Price my-1">Shaurma o`rtacha    4*15.000 UZS</p>
+               <p class="Price my-1">Klab Sendwich    2*23.000 UZS</p>
+               <p class="Price ">Coca-cola   1*9.000 UZS</p>
+               <div class="jumbotron bg-light p-2 rounded mt-5">
+                   <p class="m-0">Umumiy summa</p>
+                   <h4 class=" m-0">120.000 UZS</h4>
+               </div>
+           </div>
+           <label for="user">Mijoz ismi</label>
+           <div class="input-group mb-1 mt-1">
+               <input placeholder="Muhammad Jumayev" id="user" type="text" class="form-control" >
+               <span class="input-group-text bg-white"><img src="Images/person-plus-fill.svg" alt="icon"></span>
+           </div>
+           <label for="tel">Telefon raqam</label>
+           <div class="input-group mb-1 mt-1">
+               <input placeholder="(+99893)8614414" id="tel" type="text" class="form-control" >
+           </div>
+           <label for="street">Manzil</label>
+           <div class="input-group mb-1 mt-1">
+               <input placeholder="Yunusobot ,t Bog`ishamol 12,24" id="street" type="text" class="form-control" >
+           </div>
+           <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99419.79164674337!2d65.72175706534858!3d38.85836726270149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4ea63944a8e4c1%3A0x694369ac2037509d!2sQarshi%2C%20O%60zbekiston!5e0!3m2!1suz!2s!4v1650728727858!5m2!1suz!2s" width="100%" height="100px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <button type="button" class="btn btn-success">Saqlash</button>
+       </div>
+</div>
+</div>
+<script src="bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="bootstrap-5.0.2/dist/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    background-color: #edeff3 !important;
+}
+
+.col-2, .col-3 {
+    padding: 15px 40px !important;
+}
+
+.card-head p {
+    background-color: #27d579;
+    color: white;
+    width: 70px;
+}
+
+.card-head {
+    width: 100%;
+
+}
+
+.time {
+    width: 55%;
+}
+
+.card-head img {
+    background-color: #edeff3;
+    width: 28px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 0 7px;
+}
+
+.box-2 .box-top img {
+    width: 18px;
+}
+
+.box-2 .box-footer img {
+    width: 16px;
+}
+
+.Pay-me span {
+    padding: 5px;
+    margin: 0;
+    border-radius: 50%;
+    background-color: #15e5e4;
+}
+.box-3-top .img1{
+    position: absolute;
+    right:30px;
+    top: 18px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 38px;
+    border: 3px solid #edeff3 ;
+    cursor: pointer;
+}
+.box-3-top .img2{
+    position: absolute;
+    right:30px;
+    top: 75px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 38px;
+    border: 3px solid #edeff3 ;
+    cursor: pointer;
+}
+.row{
+    position: relative;
+    justify-content: center;
+}
+small{
+    font-size: 10px !important;
+    color: #c9cfd5;
+}

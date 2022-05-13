@@ -1,0 +1,39 @@
+.header {
+    background-color: #edeff3;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.trash {
+    background-color: #edeff3;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li {
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 12px;
+    color: #cbd1d7;
+}
+.Price{
+    font-size: 14px;
+    color: black;
+}
+.jumbotron{
+  background-color: #edeff3;
+}
+li:hover {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 2px 2px 1px white;
+    color: black;
+}
+
+.col:hover {
+    box-shadow: 2px 6px 1px white;
+}

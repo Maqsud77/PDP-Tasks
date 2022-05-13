@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f5;
+  font-family: sans-serif; }
+
+.container {
+  width: 800px;
+  margin: 0 auto; }
+  .container .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px; }
+    .container .header .title {
+      font-weight: bold;
+      font-family: sans-serif; }
+    .container .header .list {
+      list-style: none;
+      display: flex; }
+      .container .header .list .active {
+        background-color: #ed2939;
+        outline: none;
+        border: none;
+        font-size: 12px;
+        border-radius: 4px;
+        margin-left: 10px;
+        padding: 5px 8px;
+        text-decoration: none;
+        color: white; }
+      .container .header .list .list-item {
+        font-size: 12px;
+        border: 1px solid #b2b2b2;
+        border-radius: 4px;
+        margin-left: 10px;
+        padding: 5px 8px;
+        text-decoration: none;
+        color: black; }
+  .container .block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .container .block .box {
+      width: 32%;
+      background-color: white;
+      box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
+      border-radius: 8px;
+      margin-bottom: 18px; }
+      .container .block .box img {
+        width: 100%;
+        border-radius: 4px; }
+      .container .block .box .nestedBox {
+        padding: 0.8rem; }
+        .container .block .box .nestedBox .box-title {
+          font-size: 12px;
+          color: #b2b2b2;
+          border-left: 2px solid red;
+          padding-left: 5px; }
+        .container .block .box .nestedBox p {
+          font-family: sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          color: #717171; }
+        .container .block .box .nestedBox .dateComment {
+          display: flex;
+          color: #b2b2b2;
+          font-size: 12px; }
+          .container .block .box .nestedBox .dateComment img {
+            width: 15px;
+            margin-left: 15px;
+            margin-right: 5px; }
+  .container .download {
+    text-align: center; }
+    .container .download button {
+      color: white;
+      background-color: #ed2939;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      padding: 0.25rem 3rem;
+      margin-bottom: 25px;
+      cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
